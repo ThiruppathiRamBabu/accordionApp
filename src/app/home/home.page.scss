@@ -1,27 +1,18 @@
-#container {
-  text-align: center;
+// ion-accordion::part(content){
+//   padding: 10px;
+//   background-color: #ff00ff;
+// }
+// ion-accordion::part(header){
+//   padding: 10px;
+//   background-color: #00ff00;
+// }
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
+// ion-accordion.accordion-expanded ion-item[slot="header"]{
+//   --background: var(--ion-color-secondary);
+//   --color: #fff;
+// }
+// ion-accordion.accordion-expanding [slot="content"],
+// ion-accordion.accordion-expanded [slot="content"]{
+//   --ion-item-background: #0c0254;
+//   --ion-item-color: #fff;
+// }
